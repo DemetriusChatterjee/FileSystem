@@ -1,0 +1,52 @@
+Part 1
+I chose to test:
+- whether invalid commands will be rejected or not
+- whether empty line will cause a new iteration or not
+- whether too many arguments for a command will cause an error to be output or not
+- whether exit will terminate the program or not
+
+Samples of test for part 1: 
+dfgdgd
+ls
+ls we
+pwd 34
+du 34
+du
+exit sf
+create
+create file1
+hello ~
+cat
+cat file1
+rm file1
+cd we
+mkdir whether
+cd whether
+cd /
+pwd 
+du
+
+Part 2
+- testing if "cd .." works 
+- making new dir
+- checking if pwd is updated when changed into a new dir
+- checking correct du output
+- checking rmdir and rm working by removing from path
+- checking find function
+
+
+Samples of test for part 2:
+mkdir hello
+pwd
+mkdir er
+pwd
+cd..
+cd ..
+pwd
+ls
+create txt file 1
+create txt1
+create txt1
+du
+cd er
+rmdir er
